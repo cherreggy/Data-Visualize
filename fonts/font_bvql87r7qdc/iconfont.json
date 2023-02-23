@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "190263",
+      "name": "数字1",
+      "font_class": "shuzi1",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "190264",
+      "name": "数字2",
+      "font_class": "shuzi2",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "190265",
+      "name": "数字3",
+      "font_class": "shuzi3",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "705660",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "10330353",
+      "name": "skull",
+      "font_class": "skull",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "11993007",
+      "name": "magento",
+      "font_class": "magento",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "12310506",
+      "name": "tropicalstorm",
+      "font_class": "tropicalstorm",
+      "unicode": "e8b6",
+      "unicode_decimal": 59574
+    },
+    {
+      "icon_id": "22273927",
+      "name": "aids",
+      "font_class": "aids",
+      "unicode": "e739",
+      "unicode_decimal": 59193
+    }
+  ]
+}

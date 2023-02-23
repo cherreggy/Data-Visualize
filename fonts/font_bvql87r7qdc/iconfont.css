@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1670552671636') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shuzi1:before {
+  content: "\e697";
+}
+
+.icon-shuzi2:before {
+  content: "\e698";
+}
+
+.icon-shuzi3:before {
+  content: "\e699";
+}
+
+.icon-diqiu:before {
+  content: "\e60a";
+}
+
+.icon-skull:before {
+  content: "\e64f";
+}
+
+.icon-magento:before {
+  content: "\e6f9";
+}
+
+.icon-tropicalstorm:before {
+  content: "\e8b6";
+}
+
+.icon-aids:before {
+  content: "\e739";
+}
+

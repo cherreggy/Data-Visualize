@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/font_bvql87r7qdc/iconfont.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/echarts.min.js"></script>
+    <script src="./js/echarts-gl.js"></script>
+    <script src="./js/population.js"></script>
+    <script src="./js/flexible.js"></script>
+    <title>瓦罗兰特数据看板</title>
+  </head>
+  <body>
+    <div class="viewport">
+      <div class="header">
+        <h1>生涯数据</h1>
+      </div>
+      <div class="content">
+        <div class="column">
+          <!-- 概览区域 -->
+          <div class="pannel overview">
+            <ul>
+              <li>
+                <h4>16</h4>
+                <span><i class="iconfont icon-magento"></i>特工数</span>
+              </li>
+
+              <li>
+                <h4>3574</h4>
+                <span><i class="iconfont icon-skull"></i>爆头数</span>
+              </li>
+              <li>
+                <h4>2799</h4>
+                <span><i class="iconfont icon-aids"></i>助攻数</span>
+              </li>
+              <li>
+                <h4>6581</h4>
+                <span><i class="iconfont icon-tropicalstorm"></i>道具使用</span>
+              </li>
+            </ul>
+          </div>
+          <!-- 历史记录区域 -->
+          <div class="pannel histories">
+            <div class="header">
+              <a href="javascript:;" class="active">竞技模式</a>
+              <span>|</span>
+              <a href="javascript:;">其它模式</a>
+            </div>
+            <div class="body">
+              <!-- 竞技模式数据 -->
+              <div class="compete grid activate">
+                <!-- 数据表格 -->
+                <div class="grid_head">
+                  <span>胜-负</span>
+                  <span>击杀\死亡\助攻</span>
+                  <span>使用特工</span>
+                </div>
+                <div class="grid_body">
+                  <div class="wrap">
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>13-12</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 其它模式数据 -->
+              <div class="other grid">
+                <!-- 数据表格 -->
+                <div class="grid_head">
+                  <span>模式</span>
+                  <span>击杀\死亡\助攻</span>
+                  <span>使用特工</span>
+                </div>
+                <div class="grid_body">
+                  <div class="wrap">
+                    <div class="grid_row">
+                      <span>复制乱战</span>
+                      <span>20\12\5</span>
+                      <span>凯宙</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>死斗模式</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>复制乱战</span>
+                      <span>20\12\5</span>
+                      <span>斯凯</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>死斗模式</span>
+                      <span>20\12\5</span>
+                      <span>KAYO</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>死斗模式</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>超激进战</span>
+                      <span>20\12\5</span>
+                      <span>霓虹</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>死斗模式</span>
+                      <span>20\12\5</span>
+                      <span>圣祈</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>超激进战</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                    <div class="grid_row">
+                      <span>超激进战</span>
+                      <span>20\12\5</span>
+                      <span>哈泊</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 地图次数统计 -->
+          <div class="pannel maps">
+            <h4>地图次数统计</h4>
+            <div class="states"></div>
+          </div>
+        </div>
+        <div class="column">
+          <!-- 地图模块 -->
+          <div class="map pannel">
+            <h3>
+              <i
+                class="iconfont icon-diqiu"
+                style="
+                  font-weight: 400;
+                  margin-right: 0.125rem;
+                  font-size: 0.36rem;
+                "
+              ></i
+              >全球匹配玩家分布
+            </h3>
+            <div class="globe"></div>
+          </div>
+          <!-- 特工使用次数 -->
+          <div class="modes pannel">
+            <h4>特工使用次数</h4>
+            <div class="bottom">
+              <div class="bars"></div>
+              <div class="counts">
+                <p>最喜爱特工：</p>
+                <a href="javascript:;" class="favorite">欧门</a>
+                <p>最幸运特工：</p>
+                <a href="javascript:;" class="lucky">哈泊</a>
+              </div>
+            </div>
+            <div class="mask_a"></div>
+            <div class="mask_b"></div>
+            <div class="mask"></div>
+          </div>
+        </div>
+        <div class="column">
+          <!-- 不同时段累计击杀数 -->
+          <div class="summation pannel">
+            <h4>累计击杀数</h4>
+            <div class="header">
+              <a href="javascript:;" class="active">365天</a>
+              <span>|</span>
+              <a href="javascript:;">90天</a>
+              <span>|</span>
+              <a href="javascript:;">30天</a>
+              <span>|</span>
+              <a href="javascript:;">24小时</a>
+            </div>
+            <ul>
+              <li>
+                <h4>6254</h4>
+                <span><i class="iconfont icon-skull"></i>普通击杀</span>
+              </li>
+              <li>
+                <h4>3021</h4>
+                <span><i class="iconfont icon-skull"></i>爆头</span>
+              </li>
+              <li>
+                <h4>4523</h4>
+                <span><i class="iconfont icon-skull"></i>助攻</span>
+              </li>
+            </ul>
+          </div>
+          <!-- 练习场训练长统计 -->
+          <div class="train pannel">
+            <div class="header">
+              <h4>训练场练习时长</h4>
+              <span>|</span>
+              <a href="javascript:;" class="active" data-type="year">年</a>
+              <a href="javascript:;" data-type="season">季</a>
+              <a href="javascript:;" data-type="month">月</a>
+              <a href="javascript:;" data-type="day">周</a>
+            </div>
+            <div class="chart"></div>
+          </div>
+          <!-- 两个较小的模块 -->
+          <div class="two">
+            <!-- 个人能力板块 -->
+            <div class="ability pannel">
+              <h4>个人能力</h4>
+              <div class="chart"></div>
+            </div>
+            <!-- 延迟信息 -->
+            <div class="delay pannel">
+              <h4>平均延迟</h4>
+              <div class="chart"></div>
+            </div>
+          </div>
+          <!-- 好友排名模块 -->
+          <div class="friends pannel">
+            <h4>好友排名</h4>
+            <div class="content">
+              <div class="left">
+                <ul>
+                  <li>
+                    <i class="iconfont icon-shuzi1" style="color: hotpink"></i
+                    ><span>程序员01</span>
+                  </li>
+                  <li>
+                    <i class="iconfont icon-shuzi2" style="color: pink"></i
+                    ><span>镜子.</span>
+                  </li>
+                  <li>
+                    <i class="iconfont icon-shuzi3" style="color: linen"></i
+                    ><span>想去海边</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="mid">
+                <ul></ul>
+              </div>
+              <div class="right"></div>
+            </div>
+            <div class="dw">段位：<span>白银1</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
